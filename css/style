@@ -1,0 +1,66 @@
+.body {
+			margin: 0px;
+		}
+		.header {
+			clear: both; 
+			background-color: cyan; 
+			padding: 5px; 
+			text-align: center;
+		}
+		.htwo {
+			text-transform: uppercase;
+		}
+		.background {
+			background-image: url('img/yellow.gif'); 
+			background-repeat: repeat-y;
+		}
+		.float {
+			float: left; 
+			width: 200px; 
+			padding: 5px;
+		}
+		.main {
+			margin-left: 210px; 
+			padding: 1px 10px; 
+			background-color: white;
+			background-image: url('img/ball.png'); 
+			background-position: right top;
+			background-repeat: repeat-y;
+		}
+		.hthree {
+			text-align: center; 
+			text-transform: uppercase;
+		}
+		.img {
+			float:left; 
+			margin-right: 10px; 
+			margin-bottom: 4px;
+		}
+		.footer {
+			clear: both; 
+			background-color: cyan; 
+			padding: 5px;
+		}
+		@media (max-width: 600px) {
+			div.background div.float {
+				float: none;
+				width: 100%;
+			}
+			div.main {
+				margin-left: 0px;
+			}
+			div.background div.float li {
+				display: inline-block;
+				padding: 0 3px;
+			}
+			div.background div.float ul {
+				padding: 5px;
+				margin: 5px;
+			}
+			div.main img {
+				height: 150px;
+			}
+			h3 {
+				margin:5px;
+			}
+		}
